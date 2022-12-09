@@ -30,7 +30,7 @@ func main() {
 	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
 	defer cancel()
 
-	body := "Yellow green blue"
+	body := "Lets see what is happing"
 	err = ch.PublishWithContext(
 		ctx,    // context
 		"",     // exchange
