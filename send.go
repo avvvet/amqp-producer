@@ -18,7 +18,7 @@ func main() {
 
 	/* create queue*/
 	q, err := ch.QueueDeclare(
-		"queue_yellow",
+		"queue_green",
 		false, // durable
 		false, // delete when unused
 		false, // exclusive
